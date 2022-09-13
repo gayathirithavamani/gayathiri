@@ -1,0 +1,26 @@
+1 Write a blog on Difference between HTTP1.1 vs HTTP2
+  
+HTTP 1.1 
+                                  
+It can load a single request for every TCP connection
+It supports connection reuse for every TCP connection
+It compress data by itself
+It works on textual format
+It uses request resources inlining for use getting multiple pages
+
+HTTP2
+
+It avoid network delay by using multiplexing
+Where over a single TCP connection resorces to be delivered
+More advanced compression methods called HPACK
+It works on binary protocal
+It is use PUSH frame by servers
+
+2 Write a blog about objects and its internal representation in Javascript
+
+        A javascript object is a collection of named values having state and behaviour
+an object are building block of modern javascript
+javascript have primitive data types(numbers,strings,boolean,null,undefined, and symbols)
+
+ 
+   
